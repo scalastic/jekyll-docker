@@ -111,7 +111,9 @@ You can install system packages by providing a file named `.apk` with one packag
 ## Building
 
 ```sh
-script/build
+gem install docker-template
+export DOCKER_USERNAME=<YOUR-DOCKER-ID>; export DOCKER_PASSWORD=<YOUR-DOCKER-PASSWORD>; export DOCKER_EMAIL=<YOUR-DOCKER-EMAIL>
+docker-template build builder
 ```
 
 [1]: https://travis-ci.org/jekyll/docker
