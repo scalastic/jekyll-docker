@@ -80,12 +80,14 @@ RUN apk --no-cache add \
   build-base \
   libxml2-dev \
   imagemagick-dev \
+  imagemagick \
   readline-dev \
   libxslt-dev \
   libffi-dev \
   yaml-dev \
   zlib-dev \
   vips-dev \
+  vips-tools \
   sqlite-dev \
   cmake
 
