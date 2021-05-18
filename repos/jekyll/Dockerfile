@@ -79,14 +79,13 @@ RUN apk --no-cache add \
   libffi-dev \
   build-base \
   libxml2-dev \
-  imagemagick-dev \
   imagemagick \
   readline-dev \
   libxslt-dev \
   libffi-dev \
   yaml-dev \
   zlib-dev \
-  vips-dev \
+  libavif \
   vips-tools \
   sqlite-dev \
   cmake
